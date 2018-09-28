@@ -21,7 +21,7 @@
 		155F491C215D538800A890AC /* ButtonFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFilter.swift; sourceTree = "<group>"; };
 		155F491E215D5E9600A890AC /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		155F4920215D60F500A890AC /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		15C42107215C0FC000A4C99E /* videoCIFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoCIFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C42107215C0FC000A4C99E /* CIFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C4210A215C0FC000A4C99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15C4210C215C0FC000A4C99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15C4210F215C0FC000A4C99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		15C420FE215C0FC000A4C99E = {
 			isa = PBXGroup;
 			children = (
-				15C42109215C0FC000A4C99E /* videoCIFilters */,
+				15C42109215C0FC000A4C99E /* CIFilters */,
 				15C42108215C0FC000A4C99E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		15C42108215C0FC000A4C99E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15C42107215C0FC000A4C99E /* videoCIFilters.app */,
+				15C42107215C0FC000A4C99E /* CIFilters.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15C42109215C0FC000A4C99E /* videoCIFilters */ = {
+		15C42109215C0FC000A4C99E /* CIFilters */ = {
 			isa = PBXGroup;
 			children = (
 				15C4211E215C2A1200A4C99E /* Model */,
@@ -67,7 +67,7 @@
 				15C42111215C0FC100A4C99E /* Assets.xcassets */,
 				15C42116215C0FC100A4C99E /* Info.plist */,
 			);
-			path = videoCIFilters;
+			path = CIFilters;
 			sourceTree = "<group>";
 		};
 		15C4211C215C107F00A4C99E /* View */ = {
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15C42106215C0FC000A4C99E /* videoCIFilters */ = {
+		15C42106215C0FC000A4C99E /* CIFilters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15C42119215C0FC100A4C99E /* Build configuration list for PBXNativeTarget "videoCIFilters" */;
+			buildConfigurationList = 15C42119215C0FC100A4C99E /* Build configuration list for PBXNativeTarget "CIFilters" */;
 			buildPhases = (
 				15C42103215C0FC000A4C99E /* Sources */,
 				15C42104215C0FC000A4C99E /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = videoCIFilters;
+			name = CIFilters;
 			productName = videoCIFilters;
-			productReference = 15C42107215C0FC000A4C99E /* videoCIFilters.app */;
+			productReference = 15C42107215C0FC000A4C99E /* CIFilters.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15C42102215C0FC000A4C99E /* Build configuration list for PBXProject "videoCIFilters" */;
+			buildConfigurationList = 15C42102215C0FC000A4C99E /* Build configuration list for PBXProject "CIFilters" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15C42106215C0FC000A4C99E /* videoCIFilters */,
+				15C42106215C0FC000A4C99E /* CIFilters */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15C42102215C0FC000A4C99E /* Build configuration list for PBXProject "videoCIFilters" */ = {
+		15C42102215C0FC000A4C99E /* Build configuration list for PBXProject "CIFilters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15C42117215C0FC100A4C99E /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15C42119215C0FC100A4C99E /* Build configuration list for PBXNativeTarget "videoCIFilters" */ = {
+		15C42119215C0FC100A4C99E /* Build configuration list for PBXNativeTarget "CIFilters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15C4211A215C0FC100A4C99E /* Debug */,
